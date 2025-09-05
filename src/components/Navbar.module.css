@@ -1,0 +1,10 @@
+.brand{ font-weight:800; letter-spacing:.6px }
+.links{ display:flex; gap:10px }
+.links button{
+  background:transparent; border:1px solid #223355; color:#cfe0ff; padding:8px 12px; border-radius:10px;
+  transition: all .15s ease; cursor:pointer
+}
+.links button:hover{ background:#0f1b31; transform: translateY(-1px) }
+@media (max-width:720px){
+  .links{ display:grid; grid-auto-flow:column; overflow:auto; gap:8px }
+}
